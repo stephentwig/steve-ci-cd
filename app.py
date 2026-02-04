@@ -9,7 +9,7 @@ def home():
     return str(sum_value)
 
 
-def multiply(a, b):
+def multiply():
     a = 3
     b = 4
     return a * b
