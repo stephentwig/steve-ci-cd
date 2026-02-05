@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    sum_value = 2 + 2  # Simple computation
+    sum_value = 2 + 5  # Simple computation
     return str(sum_value)
 
 
